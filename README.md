@@ -1,6 +1,6 @@
 # FG-CLIP2 Full Sentiment
 
-Research code and numerical evidence for **Full-v5**, an emotion-aware bilingual image–text sentiment model with a contextual residual correction on a frozen FG-CLIP2 backbone. Author: **Chao Can**, College of Electronics and Information, Southwest Minzu University.
+Research code and numerical evidence for **Full-v5**, an emotion-aware bilingual image–text sentiment model with a contextual residual correction on a frozen FG-CLIP2 backbone. Author: **Can Chao**, College of Electronics and Information, Southwest Minzu University.
 
 This is the Full-v5 publication package, **not** the earlier No-cross release. Full-v5, the historical Full attention head, and continued No-cross are distinct models. See [the model and evidence notes](docs/MODEL_AND_RESULTS.md).
 
