@@ -1,0 +1,23 @@
+{
+  "model_id": "qihoo360/fg-clip2-base",
+  "backbone_revision": "430fbc8a912c86fd4de601381b6245a0edab22f0",
+  "training_seeds": [42, 123, 3407, 2026, 2027],
+  "scale_selection_seeds": [42, 123, 3407],
+  "locked_scale_seeds": [2026, 2027],
+  "full_inference_scale": 0.5,
+  "pooled_inference_scale": 0.25,
+  "checkpoint_selection_scale": 1.0,
+  "parent_epochs": 20,
+  "refinement_epochs": 5,
+  "freeze_epochs": 3,
+  "steps_per_epoch": 1200,
+  "batch_size": 16,
+  "parent_base_lr": 0.00005,
+  "refinement_base_lr": 0.00001,
+  "branch_lr": 0.0003,
+  "joint_branch_lr": 0.0001,
+  "branch_loss_weight": 0.1,
+  "patience": 4,
+  "eval_batch_size": 64,
+  "note": "Fixed published settings. Reproduction is a new run, not a fresh untouched test or a guaranteed bitwise reproduction of author-machine training."
+}

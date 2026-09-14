@@ -1,0 +1,33 @@
+{
+  "format": "full_v5_matched_efficiency_v1",
+  "evaluation_plan_sha256": "a78350ba3e2948215f8fad9bb92e118f048f6104604dd5006cbdb1554b6d4aae",
+  "profiler_sha256": "b329f28e61b19f153cac4baa722495988098baecd118fbe1011c0b8e9faff0c2",
+  "seed": 2027,
+  "batch_sizes": [
+    1,
+    16
+  ],
+  "warmup_requests": 20,
+  "rounds": 5,
+  "timed_requests_per_round": 64,
+  "validation_rows_per_language": 64,
+  "precision": "FP32 weights, FP16 CUDA autocast, FP32 final Full residual addition",
+  "timing": "per-request perf_counter wall time, CUDA synchronized; CPU model dispatch included",
+  "excluded": [
+    "disk/image decoding",
+    "image preprocessing",
+    "tokenization and content mask construction",
+    "host-to-device transfer",
+    "network/request overhead"
+  ],
+  "environment": {
+    "python": "3.12.11",
+    "torch": "2.9.1+cu128",
+    "cuda": "12.8",
+    "cudnn": 91002,
+    "gpu": "NVIDIA GeForce RTX 5080",
+    "cpu_threads": 2,
+    "gpu_status": "NVIDIA GeForce RTX 5080, 596.49, 56, 20 %, 4269 MiB, 68.92 W"
+  },
+  "hardware_limitation": "Windows WDDM display GPU shared with desktop applications; no clock lock. Timing rounds are technical repeats, not independent model seeds."
+}

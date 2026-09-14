@@ -1,0 +1,396 @@
+{
+  "format": "locked_retrospective_full_v5_test_v1",
+  "seeds": [
+    42,
+    123,
+    3407,
+    2026,
+    2027
+  ],
+  "selected_deployment_seed": 2027,
+  "residual_scale": 0.5,
+  "models": [
+    {
+      "seed": 42,
+      "variant": "full_v5",
+      "checkpoint": "PROJECT_ROOT\\checkpoints\\fgclip2_full_v5_development\\68dcdbd16a3a9bfe\\seed_42\\full_v5\\best_head.ckpt",
+      "checkpoint_sha256": "84b7ca3053d6f0cf1ada0f8b2f4f52d41b2c781449ef2f62fe7c242876c93523",
+      "manifest": "PROJECT_ROOT\\checkpoints\\fgclip2_full_v5_scale_diagnostic\\d9b6a2641cf42689\\scaled_manifests\\full_v5_seed_42.json",
+      "manifest_sha256": "679eb970c9abe574e8fb72fc3a100038e3a79d29920532c968f35dc56831a259"
+    },
+    {
+      "seed": 42,
+      "variant": "no_cross_control",
+      "checkpoint": "PROJECT_ROOT\\checkpoints\\fgclip2_full_v4_development\\a04093b760cbe92b\\seed_42\\no_cross_control\\best_head.ckpt",
+      "checkpoint_sha256": "b982858af855909d185a05aab0626d4e08522ddc87270b807dbd4364af232aaf",
+      "manifest": null,
+      "manifest_sha256": null
+    },
+    {
+      "seed": 123,
+      "variant": "full_v5",
+      "checkpoint": "PROJECT_ROOT\\checkpoints\\fgclip2_full_v5_development\\68dcdbd16a3a9bfe\\seed_123\\full_v5\\best_head.ckpt",
+      "checkpoint_sha256": "15d99fd04df4d58a15d08b83079eb868cff3056384fb0d65834819d67dfbfbd5",
+      "manifest": "PROJECT_ROOT\\checkpoints\\fgclip2_full_v5_scale_diagnostic\\d9b6a2641cf42689\\scaled_manifests\\full_v5_seed_123.json",
+      "manifest_sha256": "ada75b78510d0e6851a9bb198d378b94d33e59af10a50ccae5bf27f304209872"
+    },
+    {
+      "seed": 123,
+      "variant": "no_cross_control",
+      "checkpoint": "PROJECT_ROOT\\checkpoints\\fgclip2_full_v4_development\\a04093b760cbe92b\\seed_123\\no_cross_control\\best_head.ckpt",
+      "checkpoint_sha256": "c10e296f5de5ddcbb138b8a10a4840b372b8f3bd915f4bed99938c991c4c7351",
+      "manifest": null,
+      "manifest_sha256": null
+    },
+    {
+      "seed": 3407,
+      "variant": "full_v5",
+      "checkpoint": "PROJECT_ROOT\\checkpoints\\fgclip2_full_v5_development\\68dcdbd16a3a9bfe\\seed_3407\\full_v5\\best_head.ckpt",
+      "checkpoint_sha256": "0f45fc76c8a8d58650bd44f5a099fe93b85012690fdc0cc31f50e41fa353ac70",
+      "manifest": "PROJECT_ROOT\\checkpoints\\fgclip2_full_v5_scale_diagnostic\\d9b6a2641cf42689\\scaled_manifests\\full_v5_seed_3407.json",
+      "manifest_sha256": "b3fedec8636b75a7f58590c2cf1230c07a500d4fcff13ff109c9448522ceaacf"
+    },
+    {
+      "seed": 3407,
+      "variant": "no_cross_control",
+      "checkpoint": "PROJECT_ROOT\\checkpoints\\fgclip2_full_v4_development\\a04093b760cbe92b\\seed_3407\\no_cross_control\\best_head.ckpt",
+      "checkpoint_sha256": "b51b62137ea2c472d13a48405784f82181320d55d1431948faed16a0edea1b04",
+      "manifest": null,
+      "manifest_sha256": null
+    },
+    {
+      "seed": 2026,
+      "variant": "full_v5",
+      "checkpoint": "PROJECT_ROOT\\checkpoints\\fgclip2_full_v5_seed_replication\\26e18a7b6b63e575\\v5\\78216917d4888568\\seed_2026\\full_v5\\best_head.ckpt",
+      "checkpoint_sha256": "b8f7692ef3b2cdd9bbb0d3bd1f62c82497556471eb84280a0394cb6684a64568",
+      "manifest": "PROJECT_ROOT\\checkpoints\\fgclip2_full_v5_seed_replication\\26e18a7b6b63e575\\locked_scale_evaluation\\scaled_manifests\\full_v5_seed_2026.json",
+      "manifest_sha256": "0853da3ad024e18679b07323aa0397be773accfef6b8cf311bab0619a224ec87"
+    },
+    {
+      "seed": 2026,
+      "variant": "no_cross_control",
+      "checkpoint": "PROJECT_ROOT\\checkpoints\\fgclip2_full_v5_seed_replication\\26e18a7b6b63e575\\controls\\86c35ba1cc25d0a8\\seed_2026\\no_cross_control\\best_head.ckpt",
+      "checkpoint_sha256": "0c35f9e2488c7b6184112f5c2b6ee807f6d03fc6517001d1b2efeffb79d0e830",
+      "manifest": null,
+      "manifest_sha256": null
+    },
+    {
+      "seed": 2027,
+      "variant": "full_v5",
+      "checkpoint": "PROJECT_ROOT\\checkpoints\\fgclip2_full_v5_seed_replication\\26e18a7b6b63e575\\v5\\78216917d4888568\\seed_2027\\full_v5\\best_head.ckpt",
+      "checkpoint_sha256": "072ba8ea0406c3a0368a7d366a4d712e3ebebc7c5532f3264d157882b33b4290",
+      "manifest": "PROJECT_ROOT\\checkpoints\\fgclip2_full_v5_seed_replication\\26e18a7b6b63e575\\locked_scale_evaluation\\scaled_manifests\\full_v5_seed_2027.json",
+      "manifest_sha256": "c7ced1c5c879ad550f9cb1ca4506e5a1e9b52baf8a209e7eb7117e15b18e2d18"
+    },
+    {
+      "seed": 2027,
+      "variant": "no_cross_control",
+      "checkpoint": "PROJECT_ROOT\\checkpoints\\fgclip2_full_v5_seed_replication\\26e18a7b6b63e575\\controls\\86c35ba1cc25d0a8\\seed_2027\\no_cross_control\\best_head.ckpt",
+      "checkpoint_sha256": "9dd02f23f1eee89bec768a6b18255d97ce027b07d41b2d6e52d9649867b119a5",
+      "manifest": null,
+      "manifest_sha256": null
+    }
+  ],
+  "tuning": false,
+  "test_based_selection": false,
+  "independent_confirmatory_test": false,
+  "independence_limitation": "Original test outcomes were inspected in earlier ablations. Internal probe was also inspected and is part of the selected v5 model's training partition.",
+  "evidence": [
+    "checkpoints/fgclip2_submission_v1_core_cached_repeated",
+    "checkpoints/fgclip2_teacher_complementarity_pilot/formal/c3a0bfc5222ae069/independent_audit.json"
+  ],
+  "eval_batch_size": 64,
+  "context_batch_size": 64,
+  "prediction_rule": "argmax over three uncalibrated logits",
+  "primary_endpoint": "LB-MF1 = (ZH macro-F1 + EN macro-F1)/2; mean and sample SD over all five seeds",
+  "label_order": [
+    "Negative",
+    "Neutral",
+    "Positive"
+  ],
+  "source_sha256": {
+    "evaluate_full_v5_heldout.py": "2232c3efd0f4793463c84e1016c1e3fa2336a473e8131afb6e3389c094ddd8e6",
+    "full_model_v5_scaled.py": "3e59035ec5706bb9d118b6637f72c518a4c4cc6b6ef698badaaaae5ddf8f3baa",
+    "full_model_v5.py": "e2f835acd5718f878e09d8f5a446b10a51f9c92b34d36788da38137e39b5a722",
+    "full_model_v4.py": "ab8e1aaa0adf1ac7b77778f271ea468d0e8c90f086c88d42bdfe8aef0041f81f",
+    "full_model_v2.py": "ff64dcad744f7d42be7989b9ef46628d1702ce910b2528651411f8892c6c2f24",
+    "run_full_model_v2.py": "f359913271de78b3f2c450e63152e4972e8c51f6a60ab3c11b40695406afbeae",
+    "run_fgclip2_submission_cached_repeated.py": "8645ed1e4268bc0b60855cffcd0b0f9e388d0d3a7607309d82fb6daf7ca6b0a0",
+    "train_fgclip2_emotion_enhanced_v8_3_ablation_suite_summary_plus.py": "cf21ebf18fa00542002be4ba53afb3ba36d14cdb60dbc80703a24a1f71e40e59",
+    "train_full_model_v5.py": "0fd1ef5bf9e12468eb3da98cefe0974a871b5449b89ea4ce042f543af9e8f7bc"
+  },
+  "protected_cache_stamps": {
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\cache_ready.json": [
+      3307,
+      1784294519892547200
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_test\\attention_mask.npy": [
+      16960,
+      1784294516909180300
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_test\\img_global.npy": [
+      404096,
+      1784294516876990400
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_test\\labels.npy": [
+      2232,
+      1784294516916982500
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_test\\language_ids.npy": [
+      391,
+      1784294516924194900
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_test\\metadata.json": [
+      342,
+      1784294519031367500
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_test\\patches.npy": [
+      103415936,
+      1784294516886997400
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_test\\patch_mask.npy": [
+      67456,
+      1784294516894004100
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_test\\tokens.npy": [
+      25854080,
+      1784294516901004500
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_test\\txt_global.npy": [
+      404096,
+      1784294516878997900
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_train\\attention_mask.npy": [
+      132544,
+      1784294459232450900
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_train\\img_global.npy": [
+      3178112,
+      1784294459200683300
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_train\\labels.npy": [
+      16680,
+      1784294459241812600
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_train\\language_ids.npy": [
+      2197,
+      1784294459249871600
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_train\\metadata.json": [
+      344,
+      1784294469280114900
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_train\\patches.npy": [
+      813564032,
+      1784294459211935900
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_train\\patch_mask.npy": [
+      529792,
+      1784294459218434300
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_train\\tokens.npy": [
+      203391104,
+      1784294459224449200
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_train\\txt_global.npy": [
+      3178112,
+      1784294459205846500
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_val\\attention_mask.npy": [
+      16768,
+      1784294492573796000
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_val\\img_global.npy": [
+      399488,
+      1784294492543131100
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_val\\labels.npy": [
+      2208,
+      1784294492581798800
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_val\\language_ids.npy": [
+      388,
+      1784294492588603100
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_val\\metadata.json": [
+      340,
+      1784294494250708800
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_val\\patches.npy": [
+      102236288,
+      1784294492553651000
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_val\\patch_mask.npy": [
+      66688,
+      1784294492561635300
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_val\\tokens.npy": [
+      25559168,
+      1784294492567636200
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\en_val\\txt_global.npy": [
+      399488,
+      1784294492545644300
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_test\\attention_mask.npy": [
+      248640,
+      1784294407536361300
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_test\\img_global.npy": [
+      5964416,
+      1784294407497351500
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_test\\labels.npy": [
+      31192,
+      1784294407543357200
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_test\\language_ids.npy": [
+      4011,
+      1784294407552874900
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_test\\metadata.json": [
+      342,
+      1784294429692475500
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_test\\patches.npy": [
+      1526857856,
+      1784294407509351300
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_test\\patch_mask.npy": [
+      994176,
+      1784294407518350400
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_test\\tokens.npy": [
+      381714560,
+      1784294407526350800
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_test\\txt_global.npy": [
+      5964416,
+      1784294407501352500
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_train\\attention_mask.npy": [
+      1984768,
+      1784294131808048500
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_train\\img_global.npy": [
+      47631488,
+      1784294131760977900
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_train\\labels.npy": [
+      248208,
+      1784294131814006800
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_train\\language_ids.npy": [
+      31138,
+      1784294131823658400
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_train\\metadata.json": [
+      346,
+      1784294319100784100
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_train\\patches.npy": [
+      12193628288,
+      1784294131779497200
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_train\\patch_mask.npy": [
+      7938688,
+      1784294131787171700
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_train\\tokens.npy": [
+      3048407168,
+      1784294131798218500
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_train\\txt_global.npy": [
+      47631488,
+      1784294131762985000
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_val\\attention_mask.npy": [
+      248256,
+      1784294353955965500
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_val\\img_global.npy": [
+      5955200,
+      1784294353908857600
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_val\\labels.npy": [
+      31144,
+      1784294353965168700
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_val\\language_ids.npy": [
+      4005,
+      1784294353975169000
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_val\\metadata.json": [
+      339,
+      1784294375963480100
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_val\\patches.npy": [
+      1524498560,
+      1784294353920959800
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_val\\patch_mask.npy": [
+      992640,
+      1784294353936960400
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_val\\tokens.npy": [
+      381124736,
+      1784294353946959700
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_submission_v1_feature_cache\\zh_val\\txt_global.npy": [
+      5955200,
+      1784294353912372600
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_contextual_text_v1\\cache_ready.json": [
+      2092,
+      1789278302034578900
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_contextual_text_v1\\config.json": [
+      1204,
+      1789278250157883900
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_contextual_text_v1\\en_train\\progress.json": [
+      30,
+      1789278295943546500
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_contextual_text_v1\\en_train\\tokens.npy": [
+      203391104,
+      1789278292994788500
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_contextual_text_v1\\en_val\\progress.json": [
+      29,
+      1789278302007428500
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_contextual_text_v1\\en_val\\tokens.npy": [
+      25559168,
+      1789278301404965700
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_contextual_text_v1\\zh_train\\progress.json": [
+      31,
+      1789278289770202900
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_contextual_text_v1\\zh_train\\tokens.npy": [
+      3048407168,
+      1789278250854784300
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_contextual_text_v1\\zh_val\\progress.json": [
+      30,
+      1789278300996316900
+    ],
+    "PROJECT_ROOT\\checkpoints\\fgclip2_contextual_text_v1\\zh_val\\tokens.npy": [
+      381124736,
+      1789278296144630600
+    ]
+  },
+  "base_cache_metadata_sha256": "da46640dcdad761709a87e38c05f6dcbc3944af994eb28c29d65c6f08fd25323",
+  "context_training_metadata_sha256": "13963b4c4fb91bd0097feb530839fb8ded28c60bd799350ecf995b67db446e0d",
+  "csv_sha256": {
+    "zh_train": "bc183139c09cf2c749b9ef72ac1a5adacf676dd2707b3e19e32b7fadab210cc4",
+    "zh_val": "e0e59f8a75e1e094ea4de5ac9a0e9d98ec1bae42b6d16f2e39a2b05108b00a68",
+    "zh_test": "eed5d093978e63b195833e79f7907c00f458a6c394fa50284eef3eb840e9baaa",
+    "en_train": "f2cb3995a967c58fe36d7836b8abceb0420bd199608d5140db7b7ab2885251d6",
+    "en_val": "65bb4dc36ca22ef3f751de440ff433ad5d3c8e4d79ee98a50435525179f77528",
+    "en_test": "c833f9351181e500d1998b5700ebaa9fda7925a72c77cecbee6bf0abf861d859"
+  },
+  "torch_version": "2.9.1+cu128",
+  "numpy_version": "2.0.1"
+}

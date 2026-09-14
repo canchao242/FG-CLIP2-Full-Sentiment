@@ -1,0 +1,26 @@
+# Never publish private inputs, caches, model weights, credentials or local environments.
+src/data_submission_v1/
+src/checkpoints/
+data_private/
+checkpoints/
+outputs/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.npy
+*.log
+*.tmp
+.env
+.env.*
+*.pem
+*.key
+credentials*
+device_auth*
+.DS_Store
+Thumbs.db

@@ -1,0 +1,412 @@
+{
+  "code": [
+    {
+      "file": "src/train_fgclip2_emotion_enhanced_v8_3_ablation_suite_summary_plus.py",
+      "original_sha256": "cf21ebf18fa00542002be4ba53afb3ba36d14cdb60dbc80703a24a1f71e40e59",
+      "release_sha256": "bf4039516c637f22d72a43039157dc682791ba69285ed67e61cd5b2e521935c4",
+      "adjustments": [
+        "Replace five machine-specific input/output defaults with private release-local paths; add pathlib import.",
+        "Pin previously unpinned upstream loads to the recorded FG-CLIP2 revision; no tensor or optimizer change."
+      ],
+      "computation_asts_unchanged_except_explicit_download_revision": true
+    },
+    {
+      "file": "src/run_fgclip2_submission_core_repeated.py",
+      "original_sha256": "cfc0ea60500379219577eb2f871488991ac64648c25a6b8bd266204ec3c3ae92",
+      "release_sha256": "756fc03502b6d5c310e5fe9f06499b4a785fd49993218c65daa22e85ebcadc53",
+      "adjustments": [
+        "Replace author-specific project root with the source directory.",
+        "Correct outdated module docstring about subsequent test exposure; no computation change."
+      ],
+      "computation_asts_unchanged_except_explicit_download_revision": true
+    },
+    {
+      "file": "src/run_fgclip2_submission_cached_repeated.py",
+      "original_sha256": "8645ed1e4268bc0b60855cffcd0b0f9e388d0d3a7607309d82fb6daf7ca6b0a0",
+      "release_sha256": "2c61d9afe1f38076526466dd2fa3e3243556e6b61a4292e6839bf14c6721be01",
+      "adjustments": [
+        "Replace author-specific project root with the source directory.",
+        "Pin previously unpinned upstream loads to the recorded FG-CLIP2 revision; no tensor or optimizer change."
+      ],
+      "computation_asts_unchanged_except_explicit_download_revision": true
+    },
+    {
+      "file": "src/full_model_v2.py",
+      "original_sha256": "ff64dcad744f7d42be7989b9ef46628d1702ce910b2528651411f8892c6c2f24",
+      "release_sha256": "ff64dcad744f7d42be7989b9ef46628d1702ce910b2528651411f8892c6c2f24",
+      "adjustments": [],
+      "computation_asts_unchanged_except_explicit_download_revision": true
+    },
+    {
+      "file": "src/full_model_v3.py",
+      "original_sha256": "9afafd76e0b436fc5085352587b56ee2115a86cc503ec7e95f2e0a96ca2798c6",
+      "release_sha256": "9afafd76e0b436fc5085352587b56ee2115a86cc503ec7e95f2e0a96ca2798c6",
+      "adjustments": [],
+      "computation_asts_unchanged_except_explicit_download_revision": true
+    },
+    {
+      "file": "src/full_model_v4.py",
+      "original_sha256": "ab8e1aaa0adf1ac7b77778f271ea468d0e8c90f086c88d42bdfe8aef0041f81f",
+      "release_sha256": "ab8e1aaa0adf1ac7b77778f271ea468d0e8c90f086c88d42bdfe8aef0041f81f",
+      "adjustments": [],
+      "computation_asts_unchanged_except_explicit_download_revision": true
+    },
+    {
+      "file": "src/full_model_v5.py",
+      "original_sha256": "e2f835acd5718f878e09d8f5a446b10a51f9c92b34d36788da38137e39b5a722",
+      "release_sha256": "e2f835acd5718f878e09d8f5a446b10a51f9c92b34d36788da38137e39b5a722",
+      "adjustments": [],
+      "computation_asts_unchanged_except_explicit_download_revision": true
+    },
+    {
+      "file": "src/full_model_v5_scaled.py",
+      "original_sha256": "3e59035ec5706bb9d118b6637f72c518a4c4cc6b6ef698badaaaae5ddf8f3baa",
+      "release_sha256": "3e59035ec5706bb9d118b6637f72c518a4c4cc6b6ef698badaaaae5ddf8f3baa",
+      "adjustments": [],
+      "computation_asts_unchanged_except_explicit_download_revision": true
+    },
+    {
+      "file": "src/run_full_model_v2.py",
+      "original_sha256": "f359913271de78b3f2c450e63152e4972e8c51f6a60ab3c11b40695406afbeae",
+      "release_sha256": "b6c7d348b9e44726b1faf50f16a661d52fd88a199737aedd3a75f86dd79d8bba",
+      "adjustments": [
+        "Pin previously unpinned upstream loads to the recorded FG-CLIP2 revision; no tensor or optimizer change."
+      ],
+      "computation_asts_unchanged_except_explicit_download_revision": true
+    },
+    {
+      "file": "src/train_full_model_v5.py",
+      "original_sha256": "0fd1ef5bf9e12468eb3da98cefe0974a871b5449b89ea4ce042f543af9e8f7bc",
+      "release_sha256": "0fd1ef5bf9e12468eb3da98cefe0974a871b5449b89ea4ce042f543af9e8f7bc",
+      "adjustments": [],
+      "computation_asts_unchanged_except_explicit_download_revision": true
+    },
+    {
+      "file": "src/build_contextual_text_cache.py",
+      "original_sha256": "64bb57e251d1287c6b762cf29610cf78b57968838c5f25808d699405d916bb08",
+      "release_sha256": "4277c95f89ebafb14d1054db8bce40575f8d442dbc2d5798b88609f830fe8039",
+      "adjustments": [
+        "Pin previously unpinned upstream loads to the recorded FG-CLIP2 revision; no tensor or optimizer change."
+      ],
+      "computation_asts_unchanged_except_explicit_download_revision": true
+    },
+    {
+      "file": "src/diagnose_full_v5_residual_scale.py",
+      "original_sha256": "8b23a940152096d59a3ea3b893d7ba9d53aa23368c3ae6eff6d95ea6725f6450",
+      "release_sha256": "8b23a940152096d59a3ea3b893d7ba9d53aa23368c3ae6eff6d95ea6725f6450",
+      "adjustments": [],
+      "computation_asts_unchanged_except_explicit_download_revision": true
+    },
+    {
+      "file": "src/export_full_model_v5_scaled.py",
+      "original_sha256": "fac6a57f0dc4c6bcc4bb4d02f7144439fe0319c67218e01e709259c310165759",
+      "release_sha256": "fac6a57f0dc4c6bcc4bb4d02f7144439fe0319c67218e01e709259c310165759",
+      "adjustments": [],
+      "computation_asts_unchanged_except_explicit_download_revision": true
+    },
+    {
+      "file": "src/audit_full_model_v5.py",
+      "original_sha256": "390e44717dfc45386d24a5c643d2fd9c15f2d07ad5140d9f1f0f5cd9b50d58b3",
+      "release_sha256": "390e44717dfc45386d24a5c643d2fd9c15f2d07ad5140d9f1f0f5cd9b50d58b3",
+      "adjustments": [],
+      "computation_asts_unchanged_except_explicit_download_revision": true
+    },
+    {
+      "file": "src/run_full_v5_replication.py",
+      "original_sha256": "540773e7450c3f5d395047c1fa48a9521e7f802900781ab13d1af1345e6b9a4c",
+      "release_sha256": "540773e7450c3f5d395047c1fa48a9521e7f802900781ab13d1af1345e6b9a4c",
+      "adjustments": [],
+      "computation_asts_unchanged_except_explicit_download_revision": true
+    },
+    {
+      "file": "src/evaluate_full_v5_replication.py",
+      "original_sha256": "7b58392ab73c83df59164d1325ae4694bd16be3b441d39db14c0dfc5f0ea7d5a",
+      "release_sha256": "7b58392ab73c83df59164d1325ae4694bd16be3b441d39db14c0dfc5f0ea7d5a",
+      "adjustments": [],
+      "computation_asts_unchanged_except_explicit_download_revision": true
+    },
+    {
+      "file": "src/evaluate_full_v5_heldout.py",
+      "original_sha256": "2232c3efd0f4793463c84e1016c1e3fa2336a473e8131afb6e3389c094ddd8e6",
+      "release_sha256": "2232c3efd0f4793463c84e1016c1e3fa2336a473e8131afb6e3389c094ddd8e6",
+      "adjustments": [],
+      "computation_asts_unchanged_except_explicit_download_revision": true
+    },
+    {
+      "file": "src/profile_full_v5_locked.py",
+      "original_sha256": "b329f28e61b19f153cac4baa722495988098baecd118fbe1011c0b8e9faff0c2",
+      "release_sha256": "b329f28e61b19f153cac4baa722495988098baecd118fbe1011c0b8e9faff0c2",
+      "adjustments": [],
+      "computation_asts_unchanged_except_explicit_download_revision": true
+    },
+    {
+      "file": "src/audit_full_v5_heldout_report.py",
+      "original_sha256": "9b091a9f8f23e99bfb0fb3d7736135a6a0af664efada81eb55c0a62c34986e77",
+      "release_sha256": "9b091a9f8f23e99bfb0fb3d7736135a6a0af664efada81eb55c0a62c34986e77",
+      "adjustments": [],
+      "computation_asts_unchanged_except_explicit_download_revision": true
+    }
+  ],
+  "evidence": [
+    {
+      "file": "results/test_summary.json",
+      "original_sha256": "6579d23c787b65893d303d339abf691c8ddf12e66c6c87ad65a0c68c571ffb80",
+      "release_sha256": "c388488eb708f14ca314cb15dea843387edde1ab014678e84a9005781170876c",
+      "change": "Project-root strings redacted only."
+    },
+    {
+      "file": "results/evaluation_plan.json",
+      "original_sha256": "a78350ba3e2948215f8fad9bb92e118f048f6104604dd5006cbdb1554b6d4aae",
+      "release_sha256": "ed3d24c006f96f212a14c80aa684644280c573f2947e33fc73f22502c6ebe45f",
+      "change": "Project-root strings redacted only."
+    },
+    {
+      "file": "results/original_prediction_index.json",
+      "original_sha256": "79414c7470f781dc77f7bc1504bc50cb43836ca8c871379b3f821776289ecc55",
+      "release_sha256": "05a29cde42f76387b436f0ab436071c4ded19e9895d1c7b424a2253dca4ab9ed",
+      "change": "Project-root strings redacted only."
+    },
+    {
+      "file": "results/efficiency/efficiency_summary.json",
+      "original_sha256": "9945285fd41a7ad789dc00ef0aefa3ffa20ecd97254176d813d7e3b8c4c65278",
+      "release_sha256": "6cc7891c38029f1e2ccbf3ab3003e0f1e1c006a76866819a697b4008aba9c10e",
+      "change": "Project-root strings redacted only."
+    },
+    {
+      "file": "results/efficiency/timing_raw.json",
+      "original_sha256": "14c1bad50a384e586d0ca7fb78a7586fbc499e51caff6a580f2786085ab3806a",
+      "release_sha256": "8e2f435c2d793e628f0e8f804913d4857145a47b9da00dcd48380fcb5d5d4d11",
+      "change": "Project-root strings redacted only."
+    },
+    {
+      "file": "results/efficiency/profile_protocol.json",
+      "original_sha256": "dc6c7c476362368c10fe934c1916e1d1838ca6c44e321b44cdbc8303fe2eda9e",
+      "release_sha256": "0fdef37ff8ddc46af16d6d9a303cfc475d1a3085b7bdf1bdc8c116f90b065886",
+      "change": "Project-root strings redacted only."
+    }
+  ],
+  "predictions": [
+    {
+      "file": "results/predictions/full_v5_seed_123_en_test.npz",
+      "original_sha256": "a05ed969f9acb4b4b89abf134e7d70f59a3513c11ddc5db712978021f4570520",
+      "release_sha256": "a05ed969f9acb4b4b89abf134e7d70f59a3513c11ddc5db712978021f4570520",
+      "published_arrays": [
+        "labels",
+        "logits",
+        "row_indices"
+      ],
+      "observations_unchanged": true
+    },
+    {
+      "file": "results/predictions/full_v5_seed_123_zh_test.npz",
+      "original_sha256": "e0059d3f93281cfeaf4c338a5a50c742c4548d676a7a15bce10c7bac36e6a870",
+      "release_sha256": "e0059d3f93281cfeaf4c338a5a50c742c4548d676a7a15bce10c7bac36e6a870",
+      "published_arrays": [
+        "labels",
+        "logits",
+        "row_indices"
+      ],
+      "observations_unchanged": true
+    },
+    {
+      "file": "results/predictions/full_v5_seed_2026_en_test.npz",
+      "original_sha256": "03aa442c16fd9ee7ff3f45111989e77dd25641dbe1cc4c30cf5b656b8f075ce5",
+      "release_sha256": "03aa442c16fd9ee7ff3f45111989e77dd25641dbe1cc4c30cf5b656b8f075ce5",
+      "published_arrays": [
+        "labels",
+        "logits",
+        "row_indices"
+      ],
+      "observations_unchanged": true
+    },
+    {
+      "file": "results/predictions/full_v5_seed_2026_zh_test.npz",
+      "original_sha256": "131c59cfda5edb67e2466650381b7bf4e7c5e6359dda4da3aeb83655e6eb0560",
+      "release_sha256": "131c59cfda5edb67e2466650381b7bf4e7c5e6359dda4da3aeb83655e6eb0560",
+      "published_arrays": [
+        "labels",
+        "logits",
+        "row_indices"
+      ],
+      "observations_unchanged": true
+    },
+    {
+      "file": "results/predictions/full_v5_seed_2027_en_test.npz",
+      "original_sha256": "4f2e5e4eae9997b7fcc7ee04c19d80b85311ef61e5702d5b87f0d65fe07fb644",
+      "release_sha256": "4f2e5e4eae9997b7fcc7ee04c19d80b85311ef61e5702d5b87f0d65fe07fb644",
+      "published_arrays": [
+        "labels",
+        "logits",
+        "row_indices"
+      ],
+      "observations_unchanged": true
+    },
+    {
+      "file": "results/predictions/full_v5_seed_2027_zh_test.npz",
+      "original_sha256": "146fff5d1e82fba7a94374433e96435cd1e72eeda0597365d7638d86371a68cb",
+      "release_sha256": "146fff5d1e82fba7a94374433e96435cd1e72eeda0597365d7638d86371a68cb",
+      "published_arrays": [
+        "labels",
+        "logits",
+        "row_indices"
+      ],
+      "observations_unchanged": true
+    },
+    {
+      "file": "results/predictions/full_v5_seed_3407_en_test.npz",
+      "original_sha256": "67c2d98d6f5fb41b1b6995e0266eba4488d12a5dbd9e67db0128038acbf36c3e",
+      "release_sha256": "67c2d98d6f5fb41b1b6995e0266eba4488d12a5dbd9e67db0128038acbf36c3e",
+      "published_arrays": [
+        "labels",
+        "logits",
+        "row_indices"
+      ],
+      "observations_unchanged": true
+    },
+    {
+      "file": "results/predictions/full_v5_seed_3407_zh_test.npz",
+      "original_sha256": "2cf35458e5d4efe3b95f57f58d7148726eef53d41b296c9846ebfc13d6bf00e6",
+      "release_sha256": "2cf35458e5d4efe3b95f57f58d7148726eef53d41b296c9846ebfc13d6bf00e6",
+      "published_arrays": [
+        "labels",
+        "logits",
+        "row_indices"
+      ],
+      "observations_unchanged": true
+    },
+    {
+      "file": "results/predictions/full_v5_seed_42_en_test.npz",
+      "original_sha256": "77f70c8821a1eb7224090bc62049fef73280672acc475c4aca36bc9171e81fdc",
+      "release_sha256": "77f70c8821a1eb7224090bc62049fef73280672acc475c4aca36bc9171e81fdc",
+      "published_arrays": [
+        "labels",
+        "logits",
+        "row_indices"
+      ],
+      "observations_unchanged": true
+    },
+    {
+      "file": "results/predictions/full_v5_seed_42_zh_test.npz",
+      "original_sha256": "60da1ef3b0b5ec6da1080220fb58d87396d5713d34ea9c8f1d05454802b9959e",
+      "release_sha256": "60da1ef3b0b5ec6da1080220fb58d87396d5713d34ea9c8f1d05454802b9959e",
+      "published_arrays": [
+        "labels",
+        "logits",
+        "row_indices"
+      ],
+      "observations_unchanged": true
+    },
+    {
+      "file": "results/predictions/no_cross_control_seed_123_en_test.npz",
+      "original_sha256": "72b6fdfcdb08959db244e90f6865299de396a64ccca952487b07d163d9eff4b6",
+      "release_sha256": "72b6fdfcdb08959db244e90f6865299de396a64ccca952487b07d163d9eff4b6",
+      "published_arrays": [
+        "labels",
+        "logits",
+        "row_indices"
+      ],
+      "observations_unchanged": true
+    },
+    {
+      "file": "results/predictions/no_cross_control_seed_123_zh_test.npz",
+      "original_sha256": "06d03cb62f2e85380744572ff36afd1e6fddba3ab510c0f84be5de8823d9a360",
+      "release_sha256": "06d03cb62f2e85380744572ff36afd1e6fddba3ab510c0f84be5de8823d9a360",
+      "published_arrays": [
+        "labels",
+        "logits",
+        "row_indices"
+      ],
+      "observations_unchanged": true
+    },
+    {
+      "file": "results/predictions/no_cross_control_seed_2026_en_test.npz",
+      "original_sha256": "03aa442c16fd9ee7ff3f45111989e77dd25641dbe1cc4c30cf5b656b8f075ce5",
+      "release_sha256": "03aa442c16fd9ee7ff3f45111989e77dd25641dbe1cc4c30cf5b656b8f075ce5",
+      "published_arrays": [
+        "labels",
+        "logits",
+        "row_indices"
+      ],
+      "observations_unchanged": true
+    },
+    {
+      "file": "results/predictions/no_cross_control_seed_2026_zh_test.npz",
+      "original_sha256": "131c59cfda5edb67e2466650381b7bf4e7c5e6359dda4da3aeb83655e6eb0560",
+      "release_sha256": "131c59cfda5edb67e2466650381b7bf4e7c5e6359dda4da3aeb83655e6eb0560",
+      "published_arrays": [
+        "labels",
+        "logits",
+        "row_indices"
+      ],
+      "observations_unchanged": true
+    },
+    {
+      "file": "results/predictions/no_cross_control_seed_2027_en_test.npz",
+      "original_sha256": "04eb5d39d8376076ea56b5cc2cde838b88ad731637d8035f5825d18ebe8cec34",
+      "release_sha256": "04eb5d39d8376076ea56b5cc2cde838b88ad731637d8035f5825d18ebe8cec34",
+      "published_arrays": [
+        "labels",
+        "logits",
+        "row_indices"
+      ],
+      "observations_unchanged": true
+    },
+    {
+      "file": "results/predictions/no_cross_control_seed_2027_zh_test.npz",
+      "original_sha256": "51b380504685ce71e3f2e34dac2efd057c09838b6ab18a22d1b1cfc08689af3d",
+      "release_sha256": "51b380504685ce71e3f2e34dac2efd057c09838b6ab18a22d1b1cfc08689af3d",
+      "published_arrays": [
+        "labels",
+        "logits",
+        "row_indices"
+      ],
+      "observations_unchanged": true
+    },
+    {
+      "file": "results/predictions/no_cross_control_seed_3407_en_test.npz",
+      "original_sha256": "67c2d98d6f5fb41b1b6995e0266eba4488d12a5dbd9e67db0128038acbf36c3e",
+      "release_sha256": "67c2d98d6f5fb41b1b6995e0266eba4488d12a5dbd9e67db0128038acbf36c3e",
+      "published_arrays": [
+        "labels",
+        "logits",
+        "row_indices"
+      ],
+      "observations_unchanged": true
+    },
+    {
+      "file": "results/predictions/no_cross_control_seed_3407_zh_test.npz",
+      "original_sha256": "2cf35458e5d4efe3b95f57f58d7148726eef53d41b296c9846ebfc13d6bf00e6",
+      "release_sha256": "2cf35458e5d4efe3b95f57f58d7148726eef53d41b296c9846ebfc13d6bf00e6",
+      "published_arrays": [
+        "labels",
+        "logits",
+        "row_indices"
+      ],
+      "observations_unchanged": true
+    },
+    {
+      "file": "results/predictions/no_cross_control_seed_42_en_test.npz",
+      "original_sha256": "651ae8c5263d3c1166748820bc0f1cb258a6d22558da11770b3f85d7f16be3d4",
+      "release_sha256": "651ae8c5263d3c1166748820bc0f1cb258a6d22558da11770b3f85d7f16be3d4",
+      "published_arrays": [
+        "labels",
+        "logits",
+        "row_indices"
+      ],
+      "observations_unchanged": true
+    },
+    {
+      "file": "results/predictions/no_cross_control_seed_42_zh_test.npz",
+      "original_sha256": "abe53a6c5cba1e4e6e14047d35b806eebb841de1198fd7806f175ca471219dad",
+      "release_sha256": "abe53a6c5cba1e4e6e14047d35b806eebb841de1198fd7806f175ca471219dad",
+      "published_arrays": [
+        "labels",
+        "logits",
+        "row_indices"
+      ],
+      "observations_unchanged": true
+    }
+  ],
+  "changed_results": false,
+  "note": "Release path edits change source hashes. Do not disable historical manifest guards; old checkpoints require their archived source/runtime contract."
+}
